@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ANNEAUX — организация стильных свадеб на любой бюджет.">
+  <title>ANNEAUX — свадебное агентство</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@400;500;600;700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header" id="home">
+    <div class="container header-inner">
+      <a class="logo" href="#home" aria-label="ANNEAUX — главная">ANNEAUX ◉</a>
+      <button class="menu-button" type="button" aria-label="Открыть меню" aria-expanded="false">☰</button>
+      <nav class="navigation" aria-label="Основное меню">
+        <a href="#home">Главная</a>
+        <a href="#services">Услуги</a>
+        <a href="#process">Как мы работаем</a>
+        <a href="#portfolio">Портфолио</a>
+        <a href="#about">О нас</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+      <a class="phone" href="tel:+79039776195">+7 903 977 61 95</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <img class="hero-flower flower-left" src="assets/black-rose.webp" alt="">
+      <div class="hero-photo"><img src="assets/couple-car.jpg" alt="Жених и невеста на свадьбе"></div>
+      <img class="hero-flower flower-right" src="assets/black-rose.webp" alt="">
+      <h1>Делаем стильные свадьбы на любой бюджет</h1>
+      <p>Вызовем для вас такси до места встречи</p>
+      <a class="main-button" href="#contact">Обсудить встречу</a>
+    </section>
+
+    <section class="about container" id="about">
+      <h2>Свадьба с нами дешевле и проще,<br class="desktop-only"> чем свадьба без нас.</h2>
+      <p class="subtitle">Почему? Никакой магии, всё объяснимо.</p>
+      <div class="benefits">
+      <article class="benefit">
+        <h3>У нас всегда выгодные условия от подрядчиков</h3>
+        <p>Все площадки и подрядчики заинтересованы работать с агентством, потому что мы приводим клиентов, а значит у нас всегда будут самые выгодные условия сотрудничества и скидки. А еще все подрядчики будут особенно тщательно следить за качеством, чтобы мы вернулись к ним с новыми заказами.</p>
+      </article>
+      <article class="benefit">
+        <h3>Наш гонорар входит в ваш бюджет</h3>
+        <p>Расходы на наши услуги уже входят в оговоренный заранее бюджет и вы не потратите ни копейкой больше</p>
+      </article>
+      <article class="benefit">
+        <h3>Мы предложим лучшие варианты для вашего бюджета</h3>
+        <p>Мы знаем рынок площадок и подрядчиков, а значит вам не придется тратить несколько месяцев на его изучение. Мы предоставим вам лучшие варианты в вашем бюджете, а вы выберете из них то, что вам по душе.</p>
+      </article>
+      </div>
+      <p class="meeting-text">Вызовем для вас такси до места встречи</p>
+      <a class="main-button" href="#contact">Обсудить встречу</a>
+    </section>
+
+    <section class="services container" id="services">
+      <h2 class="section-title">Наши услуги</h2>
+      <p class="section-description">Всё необходимое для свадьбы, наполненной эстетикой, эмоциями и лёгкостью.</p>
+      <div class="services-grid">
+      <article class="service-card">
+        <div class="service-info">
+          <span class="number">01</span>
+          <h3>Организация свадьбы под ключ</h3>
+          <p>Мы делаем стильные свадьбы на любой бюджет. Наш гонорар уже входит в ваш бюджет и не выйдет за его пределы. Мы берем 10% от бюджета вашей свадьбы, но не менее 50 000 рублей. Камерные свадьбы обсуждаются индивидуально.</p>
+          <div class="service-bottom">
+            <span class="price">10% от бюджета (минимум 50 000 ₽)</span>
+            <a class="order-button" href="#contact" data-service="Организация свадьбы под ключ">Заказать</a>
+          </div>
+        </div>
+        <div class="service-photo">
+          <img src="assets/car.jpg" alt="" loading="lazy">
+        </div>
+      </article>
+      <article class="service-card">
+        <div class="service-info">
+          <span class="number">02</span>
+          <h3>Подбор фотографа, видеографа</h3>
+          <p>Возможно, сейчас вам кажется, что после свадьбы вы не будете пересматривать фото и видео. Просто поверьте, это не так. Мы поможем выбрать фотографа и видеографа, которые будут точно соответствовать вашему запросу.</p>
+          <div class="service-bottom">
+            <span class="price">5 000 ₽</span>
+            <a class="order-button" href="#contact" data-service="Подбор фотографа, видеографа">Заказать</a>
+          </div>
+        </div>
+        <div class="service-photo">
+          <img src="assets/photographer.webp" alt="" loading="lazy">
+        </div>
+      </article>
+      <article class="service-card">
+        <div class="service-info">
+          <span class="number">03</span>
+          <h3>Координатор</h3>
+          <p>Возможно, вы уже самостоятельно организовали свадьбу. Но в день торжества невеста должна отдыхать и наслаждаться моментом, а не решать организационные вопросы. Координатор возьмет на себя тайминг, работу с подрядчиками, помощь гостям и контроль всех процессов, чтобы ваш день прошел спокойно и без лишних переживаний.</p>
+          <div class="service-bottom">
+            <span class="price">5 000 ₽</span>
+            <a class="order-button" href="#contact" data-service="Координатор">Заказать</a>
+          </div>
+        </div>
+        <div class="service-photo">
+          <img src="assets/host.jpg" alt="" loading="lazy">
+        </div>
+      </article>
+      <article class="service-card">
+        <div class="service-info">
+          <span class="number">04</span>
+          <h3>Аудит свадебного дня</h3>
+          <p>Вы все организовали самостоятельно, но осталось ощущение незавершенности, и нет 100% уверенности, что вы продумали все детали? Мы можем обсудить вашу свадьбу, помочь в составлении тайминга, проверить площадку и всех подрядчиков, доработать меню и проверить расчет алкоголя, и закрыть все оставшиеся вопросы.</p>
+          <div class="service-bottom">
+            <span class="price">5 000 ₽</span>
+            <a class="order-button" href="#contact" data-service="Аудит свадебного дня">Заказать</a>
+          </div>
+        </div>
+        <div class="service-photo">
+          <img src="assets/venue.jpg" alt="" loading="lazy">
+        </div>
+      </article>
+      <article class="service-card">
+        <div class="service-info">
+          <span class="number">05</span>
+          <h3>Подбор идеальной площадки</h3>
+          <p>Фото площадок часто отличаются от реальности, поэтому важно увидеть место вживую. Мы отсмотрели сотни площадок и предложим только те варианты, которые действительно подходят под ваш запрос. Подберем идеальную площадку всего за неделю.</p>
+          <div class="service-bottom">
+            <span class="price">5 000 ₽</span>
+            <a class="order-button" href="#contact" data-service="Подбор идеальной площадки">Заказать</a>
+          </div>
+        </div>
+        <div class="service-photo">
+          <img src="assets/restaurant.jpg" alt="" loading="lazy">
+        </div>
+      </article>
+      <article class="service-card">
+        <div class="service-info">
+          <span class="number">06</span>
+          <h3>Ведущий, музыка, шоу</h3>
+          <p>Мы поможем подобрать ведущего, с которым будем весело и не стыдно. Разработаем сценарий, тайминг, подберем диджея и музыку, под которую все будут танцевать. Организуем кавер группу или пригласим звезду.</p>
+          <div class="service-bottom">
+            <span class="price">5 000 ₽</span>
+            <a class="order-button" href="#contact" data-service="Ведущий, музыка, шоу">Заказать</a>
+          </div>
+        </div>
+        <div class="service-photo">
+          <img src="assets/guests.jpg" alt="" loading="lazy">
+        </div>
+      </article>
+      <article class="service-card service-wide">
+        <div class="service-info">
+          <span class="number">07</span>
+          <h3>Вебинар «как оптимизировать свадебный бюджет, не потеряв в качестве»</h3>
+          <p>Вебинар подойдет всем, кто планирует свадьбу с любым бюджетом. На вебинаре вы узнаете: 20 способов грамотно сэкономить, не потеряв в качестве; то, на чем никогда нельзя экономить.</p>
+          <div class="service-bottom">
+            <span class="price">1 000 ₽</span>
+            <a class="order-button" href="#contact" data-service="Вебинар по свадебному бюджету">Заказать</a>
+          </div>
+        </div>
+      </article>
+      </div>
+    </section>
+
+    <section class="process container" id="process">
+      <h2 class="section-title">Как мы работаем</h2>
+      <p class="section-description">Изысканная организация каждого этапа — от первой идеи до момента, который останется с вами навсегда.</p>
+      <div class="steps">
+      <article class="step">
+        <span class="step-number">01</span>
+        <h3>Встреча</h3>
+        <p>На встрече мы обсудим ваши ожидания и составим первую примерную смету вашей свадьбы.</p>
+      </article>
+      <article class="step">
+        <span class="step-number">02</span>
+        <h3>Заключение договора</h3>
+        <p>Мы фиксируем в договоре бюджет вашей свадьбы и наш гонорар.</p>
+      </article>
+      <article class="step">
+        <span class="step-number">03</span>
+        <h3>Подготовка к свадьбе</h3>
+        <p>Разработка концепции свадьбы, подбор площадки и всех необходимых подрядчиков.</p>
+      </article>
+      <article class="step">
+        <span class="step-number">04</span>
+        <h3>Проведение свадьбы</h3>
+        <p>Координация свадебного дня с утра и до конца мероприятия.</p>
+      </article>
+      <article class="step">
+        <span class="step-number">05</span>
+        <h3>Сдача материала</h3>
+        <p>Контроль сдачи всех материалов подрядчиками.</p>
+      </article>
+      </div>
+      <div class="qr-row">
+        <img src="assets/qr.webp" alt="QR-код">
+        <p>Напишите нам, и мы обсудим детали вашей свадьбы.</p>
+        <a href="https://wa.me/79039776195" target="_blank" rel="noopener noreferrer">Написать</a>
+      </div>
+    </section>
+
+    <section class="portfolio container" id="portfolio">
+      <h2 class="section-title portfolio-title">Портфолио</h2>
+      <div class="portfolio-story story-first">
+        <div class="story-label">Георгий &amp; Анна.<br>30 гостей,<br>500 000 ₽</div>
+        <div class="stacked-pictures">
+          <img src="assets/table.jpg" alt="Оформление свадебного стола" loading="lazy">
+          <img src="assets/ceremony.webp" alt="Свадебная церемония" loading="lazy">
+        </div>
+        <img class="story-main" src="assets/anna.webp" alt="Георгий и Анна" loading="lazy">
+        <div class="stacked-pictures">
+          <img src="assets/beach.jpg" alt="Свадьба на природе" loading="lazy">
+          <img src="assets/beach-close.jpg" alt="Свадебная церемония" loading="lazy">
+        </div>
+      </div>
+
+      <h3 class="story-heading">Дарья &amp; Кирилл</h3>
+      <div class="photo-row photo-row-five">
+        <img src="assets/wedding-couple.webp" alt="Дарья и Кирилл" loading="lazy">
+        <img src="assets/wedding-table.webp" alt="Свадебное оформление" loading="lazy">
+        <img src="assets/wedding-walk.webp" alt="Свадебная прогулка" loading="lazy">
+        <img src="assets/newlyweds.webp" alt="Дарья и Кирилл" loading="lazy">
+        <img src="assets/wedding-ceremony.jpg" alt="Выездная церемония" loading="lazy">
+      </div>
+
+      <div class="story-group">
+        <div class="photo-large"><img src="assets/portrait.webp" alt="Марина и Дмитрий" loading="lazy"></div>
+        <div class="story-label small-label">Ирина &amp;<br> Алексей</div>
+        <div class="small-grid">
+          <img src="assets/pavilion.webp" alt="Ирина и Алексей" loading="lazy">
+          <img src="assets/gazebo.webp" alt="Оформление свадьбы" loading="lazy">
+          <img src="assets/bouquet.webp" alt="Ирина и Алексей" loading="lazy">
+          <img src="assets/night.jpg" alt="Свадебный танец" loading="lazy">
+        </div>
+      </div>
+      <h3 class="story-heading">Марина &amp; Дмитрий</h3>
+      <div class="photo-row photo-row-four">
+        <img src="assets/arch.jpg" alt="Свадебная арка" loading="lazy">
+        <img src="assets/couple-lake.webp" alt="Марина и Дмитрий" loading="lazy">
+        <img src="assets/garden.webp" alt="Свадебная прогулка" loading="lazy">
+        <img src="assets/lake.jpg" alt="Невеста у озера" loading="lazy">
+      </div>
+      <h3 class="story-heading">Мария &amp; Алексей</h3>
+      <div class="photo-row photo-row-five">
+        <img src="assets/bride-portrait.webp" alt="Мария" loading="lazy">
+        <img src="assets/dance.webp" alt="Мария и Алексей" loading="lazy">
+        <img src="assets/ceremony-flowers.webp" alt="Свадебная прогулка" loading="lazy">
+        <img src="assets/dinner.webp" alt="Свадебный ужин" loading="lazy">
+        <img src="assets/rose-couple.webp" alt="Мария и Алексей" loading="lazy">
+      </div>
+      <div class="portfolio-last">
+        <img src="assets/bride.jpg" alt="Свадебная фотосессия" loading="lazy">
+        <img src="assets/park-couple.webp" alt="Валерия и Илья" loading="lazy">
+        <div class="stacked-pictures">
+          <img src="assets/decor.webp" alt="Свадебный декор" loading="lazy">
+          <img src="assets/park.webp" alt="Место церемонии" loading="lazy">
+        </div>
+        <div class="story-label small-label">Валерия &amp;<br> Илья</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container" id="contact">
+    <div class="subscribe">
+      <div>
+        <h3>Присоединяйтесь к сообществу anneaux</h3>
+        <p>Подборки свадеб, идеи оформления, полезные советы и вдохновение для вашего идеального дня.</p>
+      </div>
+      <form class="subscribe-form" id="subscribe-form">
+        <label class="hidden-label" for="email">Ваш email</label>
+        <input id="email" type="email" name="email" placeholder="Ваш email" required>
+        <button type="submit">Подписаться</button>
+      </form>
+      <p class="instagram">Больше фото<br>в нашем Instagram</p>
+    </div>
+    <div class="contact-content">
+      <h2>Оставьте заявку</h2>
+      <p>Позвольте себе наслаждаться каждым моментом</p>
+      <p class="selected-service" id="chosen-service" hidden></p>
+      <form class="contact-form" id="contact-form" novalidate>
+        <label class="hidden-label" for="client-name">Ваше имя</label>
+        <input id="client-name" type="text" name="name" placeholder="Ваше имя" autocomplete="name" required>
+        <label class="hidden-label" for="client-phone">Телефон</label>
+        <input id="client-phone" type="tel" name="phone" placeholder="Телефон" autocomplete="tel" required>
+        <label class="hidden-label" for="wedding-date">Дата свадьбы</label>
+        <input id="wedding-date" type="text" name="date" placeholder="Дата свадьбы (ДД.ММ.ГГГГ)">
+        <label class="hidden-label" for="wedding-budget">Бюджет свадьбы</label>
+        <input id="wedding-budget" type="text" name="budget" placeholder="Бюджет свадьбы">
+        <button type="submit">Назначить встречу</button>
+        <p class="form-message" id="form-message" role="status"></p>
+      </form>
+    </div>
+  </footer>
+</body>
+</html>
