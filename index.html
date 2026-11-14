@@ -9,13 +9,22 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@400;500;600;700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <script src="script.js" defer></script>
 </head>
 <body>
   <header class="header" id="home">
     <div class="container header-inner">
       <a class="logo" href="#home" aria-label="ANNEAUX — главная">ANNEAUX ◉</a>
-      <button class="menu-button" type="button" aria-label="Открыть меню" aria-expanded="false">☰</button>
+      <details class="mobile-menu">
+        <summary class="menu-button"><span class="hidden-label">Открыть или закрыть меню</span></summary>
+        <nav class="mobile-navigation" aria-label="Мобильное меню">
+          <a href="#home">Главная</a>
+          <a href="#services">Услуги</a>
+          <a href="#process">Как мы работаем</a>
+          <a href="#portfolio">Портфолио</a>
+          <a href="#about">О нас</a>
+          <a href="#contact">Контакты</a>
+        </nav>
+      </details>
       <nav class="navigation" aria-label="Основное меню">
         <a href="#home">Главная</a>
         <a href="#services">Услуги</a>
@@ -70,7 +79,7 @@
           <p>Мы делаем стильные свадьбы на любой бюджет. Наш гонорар уже входит в ваш бюджет и не выйдет за его пределы. Мы берем 10% от бюджета вашей свадьбы, но не менее 50 000 рублей. Камерные свадьбы обсуждаются индивидуально.</p>
           <div class="service-bottom">
             <span class="price">10% от бюджета (минимум 50 000 ₽)</span>
-            <a class="order-button" href="#contact" data-service="Организация свадьбы под ключ">Заказать</a>
+            <a class="order-button" href="#contact">Заказать</a>
           </div>
         </div>
         <div class="service-photo">
@@ -84,7 +93,7 @@
           <p>Возможно, сейчас вам кажется, что после свадьбы вы не будете пересматривать фото и видео. Просто поверьте, это не так. Мы поможем выбрать фотографа и видеографа, которые будут точно соответствовать вашему запросу.</p>
           <div class="service-bottom">
             <span class="price">5 000 ₽</span>
-            <a class="order-button" href="#contact" data-service="Подбор фотографа, видеографа">Заказать</a>
+            <a class="order-button" href="#contact">Заказать</a>
           </div>
         </div>
         <div class="service-photo">
@@ -98,7 +107,7 @@
           <p>Возможно, вы уже самостоятельно организовали свадьбу. Но в день торжества невеста должна отдыхать и наслаждаться моментом, а не решать организационные вопросы. Координатор возьмет на себя тайминг, работу с подрядчиками, помощь гостям и контроль всех процессов, чтобы ваш день прошел спокойно и без лишних переживаний.</p>
           <div class="service-bottom">
             <span class="price">5 000 ₽</span>
-            <a class="order-button" href="#contact" data-service="Координатор">Заказать</a>
+            <a class="order-button" href="#contact">Заказать</a>
           </div>
         </div>
         <div class="service-photo">
@@ -112,7 +121,7 @@
           <p>Вы все организовали самостоятельно, но осталось ощущение незавершенности, и нет 100% уверенности, что вы продумали все детали? Мы можем обсудить вашу свадьбу, помочь в составлении тайминга, проверить площадку и всех подрядчиков, доработать меню и проверить расчет алкоголя, и закрыть все оставшиеся вопросы.</p>
           <div class="service-bottom">
             <span class="price">5 000 ₽</span>
-            <a class="order-button" href="#contact" data-service="Аудит свадебного дня">Заказать</a>
+            <a class="order-button" href="#contact">Заказать</a>
           </div>
         </div>
         <div class="service-photo">
@@ -126,7 +135,7 @@
           <p>Фото площадок часто отличаются от реальности, поэтому важно увидеть место вживую. Мы отсмотрели сотни площадок и предложим только те варианты, которые действительно подходят под ваш запрос. Подберем идеальную площадку всего за неделю.</p>
           <div class="service-bottom">
             <span class="price">5 000 ₽</span>
-            <a class="order-button" href="#contact" data-service="Подбор идеальной площадки">Заказать</a>
+            <a class="order-button" href="#contact">Заказать</a>
           </div>
         </div>
         <div class="service-photo">
@@ -140,7 +149,7 @@
           <p>Мы поможем подобрать ведущего, с которым будем весело и не стыдно. Разработаем сценарий, тайминг, подберем диджея и музыку, под которую все будут танцевать. Организуем кавер группу или пригласим звезду.</p>
           <div class="service-bottom">
             <span class="price">5 000 ₽</span>
-            <a class="order-button" href="#contact" data-service="Ведущий, музыка, шоу">Заказать</a>
+            <a class="order-button" href="#contact">Заказать</a>
           </div>
         </div>
         <div class="service-photo">
@@ -154,7 +163,7 @@
           <p>Вебинар подойдет всем, кто планирует свадьбу с любым бюджетом. На вебинаре вы узнаете: 20 способов грамотно сэкономить, не потеряв в качестве; то, на чем никогда нельзя экономить.</p>
           <div class="service-bottom">
             <span class="price">1 000 ₽</span>
-            <a class="order-button" href="#contact" data-service="Вебинар по свадебному бюджету">Заказать</a>
+            <a class="order-button" href="#contact">Заказать</a>
           </div>
         </div>
       </article>
@@ -194,7 +203,7 @@
       <div class="qr-row">
         <img src="assets/qr.webp" alt="QR-код">
         <p>Напишите нам, и мы обсудим детали вашей свадьбы.</p>
-        <a href="https://wa.me/79039776195" target="_blank" rel="noopener noreferrer">Написать</a>
+        <a href="#contact">Обсудить встречу</a>
       </div>
     </section>
 
@@ -265,18 +274,17 @@
         <h3>Присоединяйтесь к сообществу anneaux</h3>
         <p>Подборки свадеб, идеи оформления, полезные советы и вдохновение для вашего идеального дня.</p>
       </div>
-      <form class="subscribe-form" id="subscribe-form">
+      <div class="subscribe-form">
         <label class="hidden-label" for="email">Ваш email</label>
         <input id="email" type="email" name="email" placeholder="Ваш email" required>
-        <button type="submit">Подписаться</button>
-      </form>
+        <button type="button" disabled title="Подписка пока не подключена">Подписаться</button>
+      </div>
       <p class="instagram">Больше фото<br>в нашем Instagram</p>
     </div>
     <div class="contact-content">
       <h2>Оставьте заявку</h2>
       <p>Позвольте себе наслаждаться каждым моментом</p>
-      <p class="selected-service" id="chosen-service" hidden></p>
-      <form class="contact-form" id="contact-form" novalidate>
+      <form class="contact-form" id="contact-form">
         <label class="hidden-label" for="client-name">Ваше имя</label>
         <input id="client-name" type="text" name="name" placeholder="Ваше имя" autocomplete="name" required>
         <label class="hidden-label" for="client-phone">Телефон</label>
@@ -285,8 +293,8 @@
         <input id="wedding-date" type="text" name="date" placeholder="Дата свадьбы (ДД.ММ.ГГГГ)">
         <label class="hidden-label" for="wedding-budget">Бюджет свадьбы</label>
         <input id="wedding-budget" type="text" name="budget" placeholder="Бюджет свадьбы">
-        <button type="submit">Назначить встречу</button>
-        <p class="form-message" id="form-message" role="status"></p>
+        <button type="button" disabled title="Демонстрационная форма: отправка не подключена">Назначить встречу</button>
+        <p class="form-note">Демонстрационная форма — отправка не подключена.</p>
       </form>
     </div>
   </footer>
